@@ -5,12 +5,12 @@ import json
 import os
 
 # Confluence API Details
-confluence_base_url = 'https://atlassian-dc-test.miniorange.com/wiki'
-parent_page_id = '1539506498'
-auth = HTTPBasicAuth('admin@admin.com', 'L#1wmHQE')
+confluence_base_url = ' your url'
+parent_page_id = 'id'
+auth = HTTPBasicAuth('login id', 'pass')
  # Azure Blob Storage Details
-azure_connection_string = 'DefaultEndpointsProtocol=https;AccountName=csg100320005363b3a0;AccountKey=9n7oVbv+T6PA0lcW9cjwCutlTOxD1W2pWvhS4qCSj/swGMWdVZIG/CrN/IqcHl1UcEvdzA56NIUd+AStmoV1OQ==;EndpointSuffix=core.windows.net'
-container_name = 'csg100320005363b3a0'
+azure_connection_string = ''
+container_name = 'name'
 
 # # Initialize Blob Service Client
 blob_service_client = BlobServiceClient.from_connection_string(azure_connection_string)
